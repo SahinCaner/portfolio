@@ -1,0 +1,47 @@
+button:focus,
+input[type="submit"] {
+  outline: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.1rem 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  border-radius: 2.4rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 1s cubic-bezier(0.4, 0, 1, 1),
+    background-color 1s cubic-bezier(0.4, 0, 1, 1),
+    border-color 1s cubic-bezier(0.4, 0, 1, 1),
+    box-shadow 1s cubic-bezier(0.4, 0, 1, 1);
+  font-family: "Lato", "Arial", sans-serif;
+  letter-spacing: 0.13em;
+}
+
+.btn i {
+  font-size: 1.6rem;
+}
+.btn--primary {
+  color: #fff;
+  border-color: $primary-color;
+  background-color: transparent;
+  @include hover {
+    background-color: $primary-color;
+    border-color: transparent;
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}

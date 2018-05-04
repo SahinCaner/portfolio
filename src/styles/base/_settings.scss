@@ -1,0 +1,20 @@
+// FONT COLORS
+$color-1: rgba(255, 255, 255, 1);
+$color-2: lighten($color-1, 30%);
+$color-3: lighten($color-2, 25%);
+$color-4: lighten($color-3, 10%);
+
+$background: lighten(hsl(216, 33%, 94%), 4.2%);
+$border-color: darken($background, 4%);
+
+$primary-color: rgba(250, 72, 88, 1);
+
+$primary-success: #32d3bd;
+
+$component-background: #fff;
+
+$input-background-color: #f9fafc;
+$error-color: #ef5a54;
+$border-radius: 0.4rem;
+$header-font-family: "Trebuchet MS", sans-serif;
+$content-font-family: "Open Sans", sans-serif;

@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 62.5%;
+}
+
+body,
+select,
+input,
+textarea,
+button {
+  font-weight: 600;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: calc(2.4rem + (38 - 24) * (100vw - 32rem) / (1920 - 320));
+}
+h2 {
+  font-size: calc(2.1rem + (29 - 21) * (100vw - 32rem) / (1920 - 320));
+}
+h3 {
+  font-size: calc(1.8rem + (22 - 18) * (100vw - 32rem) / (1920 - 320));
+}
+h4 {
+  font-size: calc(1.4rem + (16 - 14) * (100vw - 32rem) / (1920 - 320));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 90ms;
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
