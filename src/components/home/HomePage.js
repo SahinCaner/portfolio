@@ -102,13 +102,9 @@ export class HomePage extends React.Component {
                   in Los Angeles, CA.
                 </p>
                 <p>
-                  <a
-                    className="btn btn--primary"
-                    href="mailto:canersahin@gmail.com"
-                    target="_blank"
-                  >
-                    CONTACT ME
-                  </a>
+                  <Link className="btn btn--primary" to="/">
+                    PORTFOLIO LOGIN
+                  </Link>
                 </p>
               </div>
             </div>

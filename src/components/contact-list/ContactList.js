@@ -32,7 +32,7 @@ const ContactList = props => {
 
       {!props.authenticated && (
         <li>
-          <Link to="/portfolio">
+          <Link to="/">
             <span>&#x1F300;</span> Portfolio login
           </Link>
         </li>

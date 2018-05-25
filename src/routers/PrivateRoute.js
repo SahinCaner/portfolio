@@ -20,7 +20,7 @@ export const PrivateRoute = ({
           <Footer />
         </div>
       ) : (
-        <Redirect to="/" />
+        <Redirect to="/home" />
       )
     }
   />
