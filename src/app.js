@@ -35,7 +35,7 @@ firebase.auth().onAuthStateChanged(user => {
     store.dispatch(login(user.uid));
     renderApp();
     if (history.location.pathname === "/") {
-      history.push("/folders");
+      history.push("/about");
     }
   } else {
     store.dispatch(logout());

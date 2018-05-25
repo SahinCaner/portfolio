@@ -8,7 +8,8 @@ const TextInput = ({
   placeholder,
   value,
   error,
-  microcopy
+  microcopy,
+  password
 }) => {
   let wrapperClass = "input__group";
 
@@ -19,16 +20,16 @@ const TextInput = ({
   return (
     <div className={wrapperClass}>
       {label && <label htmlFor={name}>{label}</label>}
-        <input
-          type="text"
-          className="form__input"
-          name={name}
-          value={value}
-          onChange={onChange}
-          placeholder={placeholder}
-        />
-        {microcopy && <p className="microcopy">{microcopy}</p>}
-        {error && <p className="microcopy microcopy--error">{error}</p>}
+      <input
+        type={password ? "password" : "text"}
+        className="form__input"
+        name={name}
+        value={value}
+        onChange={onChange}
+        placeholder={placeholder}
+      />
+      {microcopy && <p className="microcopy">{microcopy}</p>}
+      {error && <p className="microcopy microcopy--error">{error}</p>}
     </div>
   );
 };

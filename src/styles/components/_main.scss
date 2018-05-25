@@ -1,12 +1,17 @@
 .main {
   position: relative;
-  padding: 3rem 3.2rem;
+  padding: 2.4rem 1.6rem;
   z-index: 10;
   animation: fadeIn 1.3s;
 }
+
 .main__item {
   max-width: 900px;
   margin: 0 auto;
+}
+
+.section__header {
+  background-color: #212121;
 }
 
 @media (min-width: 768px) {
@@ -14,6 +19,9 @@
 @media (min-width: 992px) {
   .main {
     width: 50%;
+  }
+  .main--auth {
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {

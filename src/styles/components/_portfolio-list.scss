@@ -1,0 +1,106 @@
+ul.portfolio__list {
+  width: 100%;
+  margin: 3.2rem 0;
+}
+ul.portfolio__list > li {
+  position: relative;
+  overflow: hidden;
+}
+ul.portfolio__list > li a,
+ul.portfolio__list > li .no__link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 3.6rem;
+  border-radius: 0.4rem;
+  background-color: rgba($primary-dark-color, 0.02);
+  border: 0.1rem solid rgba($primary-dark-color, 0.08);
+  transition: 1s background-color;
+}
+
+ul.portfolio__list > li a:hover {
+  background-color: rgba($primary-dark-color, 0.08);
+}
+
+ul.portfolio__list > li .no__link {
+  cursor: not-allowed;
+}
+
+ul.portfolio__list > li ~ li {
+  margin-top: 3.2rem;
+}
+
+.portfolio__item + .portfolio__item {
+  margin-top: 3.2rem;
+}
+
+.portfolio__item__logo {
+  width: 20rem;
+  height: 20rem;
+}
+.portfolio__item__logo img {
+  width: 100%;
+  height: 100%;
+  border: 0.1rem solid rgba($primary-dark-color, 0.08);
+  border-radius: 0.4rem;
+}
+
+.portfolio__item__content {
+  color: $color-dark-2;
+}
+
+.portfolio__item__content p {
+  margin: 0.8rem 0 3.2rem 0;
+  font-size: calc(1.4rem + (18 - 14) * (100vw - 32rem) / (1920 - 320));
+  line-height: 1.6;
+}
+
+ul.portfolio__list > li a:hover .btn--link {
+  border-bottom-color: $primary-color;
+  color: $primary-color;
+}
+
+
+.portfolio__tag {
+  position: absolute;
+  top: 25px;
+  right: -48px;
+  width: 20rem;
+  background-color: rgba($primary-dark-color, 0.15);
+  font-size: 1.6rem;
+  transform: rotate(45deg);
+  text-align: center;
+  transition: 1s background-color;
+}
+
+ul.portfolio__list > li .no__link:hover .portfolio__tag {
+  background-color: rgba($primary-color, 1);
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  ul.portfolio__list > li a,
+  ul.portfolio__list > li .no__link {
+    flex-direction: row;
+    padding: 5.4rem 3.2rem;
+    text-align: left;
+  }
+  .portfolio__item__logo {
+    flex: 0 0 25rem;
+    width: 25rem;
+    height: 25rem;
+    margin-right: 3.2rem;
+  }
+  .portfolio__item__content h2 {
+    color: $color-dark-1;
+    margin: 0 0 1rem 0;
+  }
+
+  .portfolio__item + .portfolio__item {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+}

@@ -9,6 +9,8 @@
 .input__group label {
   display: block;
   min-height: 1.8em;
+  line-height: 1.8em;
+  letter-spacing: 0.03rem;
 }
 .input__group--verticalcenter {
   align-items: center;
@@ -19,14 +21,14 @@
 }
 
 .input__group--error label {
-  color: #ef5a54;
+  color: rgba($primary-color, 0.5);
 }
 .input__group--error label.microcopy--error {
-  color: #ef5a54;
+  color: rgba($primary-color, 0.5);
   margin: .2rem 0 0;
 }
 .input__group--error .form__input {
-  border-color: #ef5a54;
+  border-color: rgba($primary-color, 0.5);
 }
 .input__group input[type="checkbox"] {
   position: absolute;

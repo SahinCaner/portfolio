@@ -7,12 +7,34 @@
 @import "./components/main";
 @import "./components/contact-list";
 
+
 @import "./components/buttons";
 
+// Login
+@import "./components/header";
+@import "./components/footer";
+@import "./components/navigation";
+@import "./components/section";
+@import "./components/portfolio-list";
 
+
+
+@import "./components/contact";
 @import "./components/content";
+@import "./components/context";
+
+
+@import "./components/chart-list";
+
+@import "./components/image-zoom";
+@import "./components/skillset";
 @import "./components/input";
 @import "./components/input-group";
 @import "./components/login";
-@import "./components/_loader.scss";
-@import "./components/_hover-slider.scss";
+@import "./components/loader";
+@import "./components/next-article";
+@import "./components/hover-slider";
+@import "./components/promo";
+@import "./components/about";
+@import "./components/toastr";
+

@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { Route, Redirect } from "react-router-dom";
+import Header from "../components/common/Header";
+import Footer from "../components/common/Footer";
 
 export const PrivateRoute = ({
   isAuthenticated,
@@ -12,9 +14,10 @@ export const PrivateRoute = ({
     {...rest}
     component={props =>
       isAuthenticated ? (
-        <div className="wrapper">
-          {/* <Navigation /> */}
+        <div className="wrapper wrapper--auth">
+          <Header />
           <Component {...props} />
+          <Footer />
         </div>
       ) : (
         <Redirect to="/" />

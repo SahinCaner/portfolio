@@ -1,0 +1,145 @@
+ul.chart__list {
+  list-style: none;
+  background-color: rgba($primary-dark-color, 0.05);
+  padding: 1.6rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid rgba($primary-dark-color, 0.08);
+}
+
+ul.chart__list .title h4 {
+  font-size: calc(1.4rem + (18 - 14) * (100vw - 32rem) / (1920 - 320));
+  margin-bottom: 1.6rem;
+}
+
+ul.chart__list li .result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.chart__list li .result h2 {
+  color: rgba($primary-dark-color, 0.5);
+}
+
+ul.chart__list .circle {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  flex: 0 0 10rem;
+  background: linear-gradient(
+    to top,
+    rgba(1, 6, 20, 0.5),
+    rgba(5, 51, 85, 0.9) 100%
+  );
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+}
+
+ul.chart__list h3,
+ul.chart__list h6 {
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  font-size: 2.1rem;
+}
+
+ul.chart__list h6 {
+  font-size: 1.4rem;
+  font-family: "Open sans", sans-serif;
+  font-weight: normal;
+}
+
+ul.chart__list .inner__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  height: 9rem;
+  width: 9rem;
+  background: radial-gradient(#053355, #010614);
+  border-radius: 50%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.increment span {
+  position: absolute;
+  bottom: -80%;
+  left: 1rem;
+  z-index: 5;
+  border: solid rgba(255, 255, 255, 0.1);
+  border-width: 0 1rem 1rem 0;
+  display: inline-block;
+  padding: 3rem;
+  transform: rotate(-135deg);
+}
+
+.increment span + span {
+  bottom: -59%;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.increment span + span + span {
+  bottom: -38%;
+  border-color: rgba(255, 255, 255, 0.04);
+}
+.increment span + span + span + span {
+  bottom: -17%;
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.increment--reverse span {
+  bottom: 97%;
+  transform: rotate(45deg);
+}
+
+.increment--reverse span + span {
+  bottom: 76%;
+}
+
+.increment--reverse span + span + span {
+  bottom: 55%;
+}
+.increment--reverse span + span + span + span {
+  bottom: 34%;
+}
+
+@media (min-width: 768px) {
+  ul.chart__list {
+    padding: 3.2rem 6.4rem;
+  }
+  ul.chart__list .title h4 {
+    margin-bottom: 3.2rem;
+  }
+  ul.chart__list .circle {
+    height: 20rem;
+    width: 20rem;
+    flex: 0 0 20rem;
+  }
+
+  ul.chart__list .inner__circle {
+    top: 1.5rem;
+    left: 1.5rem;
+    height: 17rem;
+    width: 17rem;
+  }
+  ul.chart__list h3,
+  ul.chart__list h6 {
+    font-size: 5.1rem;
+  }
+
+  ul.chart__list h6 {
+    font-size: 1.8rem;
+  }
+
+  .increment span {
+    left: 1.5rem;
+    border-width: 0 2rem 2rem 0;
+    padding: 6rem;
+  }
+}

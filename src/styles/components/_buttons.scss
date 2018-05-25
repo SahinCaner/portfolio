@@ -3,7 +3,8 @@ input[type="submit"] {
   outline: 0;
 }
 
-.btn {
+.btn,
+a.btn {
   display: inline-block;
   padding: 1.1rem 1.8rem;
   font-weight: bold;
@@ -11,8 +12,8 @@ input[type="submit"] {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid transparent;
-  font-size: 1.6rem;
+  border: 0.2rem solid transparent;
+  font-size: calc(1.4rem + (16 - 14) * (100vw - 32rem) / (1920 - 320));
   line-height: 1.5;
   border-radius: 2.4rem;
   white-space: nowrap;
@@ -28,7 +29,8 @@ input[type="submit"] {
 .btn i {
   font-size: 1.6rem;
 }
-.btn--primary {
+.btn--primary,
+a.btn--primary {
   color: #fff;
   border-color: $primary-color;
   background-color: transparent;
@@ -37,6 +39,22 @@ input[type="submit"] {
     border-color: transparent;
     color: #fff;
   }
+}
+
+.btn--link {
+  padding: 0;
+  border-radius: 0;
+  color: rgba($primary-color, 0.5);
+  border-color: transparent;
+  background-color: transparent;
+  @include hover {
+    border-bottom-color: $primary-color;
+    color: $primary-color;
+  }
+}
+
+.btn--login {
+  color: $primary-dark-color;
 }
 
 @media (min-width: 768px) {

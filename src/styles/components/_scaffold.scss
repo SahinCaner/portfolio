@@ -6,6 +6,23 @@ body {
   font-size: calc(1.8rem + (32 - 18) * (100vw - 32rem) / (1920 - 320));
 }
 
+html,
+body,
+#app,
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+}
+.wrapper {
+  width: 100%;
+}
+
+.wrapper--auth {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
 .wrapper:before {
   position: fixed;
   width: 100%;
@@ -17,20 +34,36 @@ body {
   content: "";
 }
 
-.toast-top-right {
-  bottom: 0.6rem;
-  top: initial;
+.wrapper--auth:before {
+  background: none;
 }
 
-.toast-success {
-  background-color: $primary-success;
+.container {
+  display: flex;
+  flex: 1;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
 }
 
-// @media (min-width: 768px) {
-// }
-// @media (min-width: 992px) {
-// }
-// @media (min-width: 1200px) {
-// }
-// @media (min-width: 1600px) {
-// }
+.container--normal {
+  display: block;
+}
+
+.container--column {
+  flex-direction: column;
+}
+
+.section--portfolio .container {
+  max-width: 70rem;
+}
+
+
+@keyframes bottom-to-top {
+  from {
+    transform: translate3d(0, 50%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}

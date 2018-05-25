@@ -64,10 +64,8 @@ export class HomePage extends React.Component {
             <div className="main__item">
               <div className="content">
                 <h1>
-                  {/* I'm Caner Sahin, a Turkish UX Engineer currently living in Los
-                  Angeles, California. */}
                   Hello, my name is Caner. I'm a User Experience professional. I
-                  specialize in visual design, experience design and front-end
+                  specialize in visual design, experience design, and front-end
                   development.
                 </h1>
                 <p>
@@ -84,6 +82,7 @@ export class HomePage extends React.Component {
                           <Link
                             to="/"
                             id={image.id}
+                            className="inline"
                             onMouseEnter={this.onMouseEnterLink}
                             onMouseLeave={this.onMouseLeaveLink}
                           >
@@ -99,13 +98,17 @@ export class HomePage extends React.Component {
                   with many more in the pipeline.
                 </p>
                 <p>
-                  {/* I’m currently renting my brain for a full-time position in Los
-                  Angeles. */}
-                  My brain is currently seeking a full-time position in Los
-                  Angeles, CA.
+                  I am currently looking for a full-time Senior UX / UI position
+                  in Los Angeles, CA.
                 </p>
                 <p>
-                  <span className="btn btn--primary">HIRE MY &#x1F9E0;</span>
+                  <a
+                    className="btn btn--primary"
+                    href="mailto:canersahin@gmail.com"
+                    target="_blank"
+                  >
+                    CONTACT ME
+                  </a>
                 </p>
               </div>
             </div>

@@ -5,14 +5,28 @@ ul.contact__list {
   font-size: calc(14px + (18 - 14) * (100vw - 320px) / (2560 - 320));
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
-ul.contact__list li:last-child {
-  flex: 1;
-  text-align: right;
+
+ul.contact__list li {
+  display: flex;
 }
+
 ul.contact__list li ~ li {
   margin-top: 15px;
 }
+
+ul.contact__list li:last-child  {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+ul.contact__list--authenticated li:last-child  {
+  justify-content: flex-start;
+}
+
 ul.contact__list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: rgba(255, 255, 255, 0.3);
   transition: color 3s cubic-bezier(0, 0, 0.2, 1);
 }
@@ -23,6 +37,24 @@ ul.contact__list li a span{
   color: rgba(255, 255, 255, 0.5);
 }
 
+ul.contact__list li svg {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: rgba(255, 255, 255, 0.3);
+  transition: all 3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+ul.contact__list li svg:hover {
+  fill: rgba($primary-color, 0.7);
+}
+
+ul.contact__list--authenticated li svg {
+  fill: rgba($primary-dark-color, 0.5);
+}
+
+ul.contact__list--authenticated li svg:hover {
+  fill: rgba($primary-dark-color, 1);
+}
 
 
 @media (min-width: 768px) {
