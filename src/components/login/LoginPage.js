@@ -3,13 +3,11 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { startLogin } from "../../actions/authActions";
 import LoginForm from "../login/LoginForm";
-import toastr from "toastr";
 
 export class LoginPage extends React.Component {
   onLogin = ({ email, password }) => {
     this.props.startLogin(email, password).then(() => {
       this.props.history.push(`/about`);
-      toastr.success("<span>&#x1F389;</span> Login is successful.");
     });
   };
 
