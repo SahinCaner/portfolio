@@ -334,21 +334,45 @@ const SvY = () => {
           <div className="context">
             <h1>LESSONS</h1>
             <p>
-              I always think content is the most important ingredient for
-              successful websites and I still think it is true. However, when I
-              was working on Saglik ve Yasam, I realized just having a good
-              content is not enough to get through ahead of the competition. In
-              fact, it is much more complicated than just a good content. You
-              have to build a solid strategy and visualization for your content
-              or you are just <em>another bites to dust</em> in the Web.
+              In my opinion to have successful UX, you have to think every
+              aspect of the project. UX is combination and harmony of skillsets
+              that includes design and development. Only then your website can
+              have a good sense of UX feeling.
             </p>
 
+            <p>
+              For websites like Saglik ve Yasam I always thought quality content
+              is the most important ingredient and I still think it is true.
+              However, just because website has quality content that does not
+              mean it will have better Google search result appearence. In fact,
+              it is much more complicated. You have to make it work Search
+              Engine Optimization, Back-end and Front-end Development together
+              inorder to achive smooth User Experience feeling.
+            </p>
+            {/* <p>
+              What I have done for Saglik ve Yasam.
+            </p>
+            <ul>
+              <li>Pick strategic keywords.</li>
+              <li>Have strategic backlinks.</li>
+              <li>Have mobile friendly UI.</li>
+              <li>Have readable short URLs.</li>
+              <li>Have semantic HTML.</li>
+              <li>Have good amount of vocabulary in the content.</li>
+              <li>Have internal and external links in your content.</li>
+              <li>Optimize images.</li>
+              <li>Have great load time performance.</li>
+            </ul>
+            <p>
+              And you have to present all these data in a meaningful way to your
+              user base. and visualization for your content or you are just
+              <em>another bites to dust</em> in the Web.
+            </p> */}
             <p className="muted">
               PS: After we launched the redesign of Saglik ve Yasam, we had so
               many offer for the website. One and half year later we decided to
               sell Saglik ve Yasam.
             </p>
-
             <p className="muted">
               PPS: Company owner that bought Saglik ve Yasam from us, said "We
               really wanted to buy Saglik ve Yasam and its design made a huge

@@ -12,7 +12,7 @@ const AboutPage = () => {
             <div className="column column--left">
               <h1>Hello, I am Caner.</h1>
               <h4>
-                I craft pixels to make people's life <em>easier</em>.
+                I craft pixels to make people's lives <em>easier</em>.
               </h4>
             </div>
             <div className="column column--right">
