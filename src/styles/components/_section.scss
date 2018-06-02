@@ -11,6 +11,9 @@
   margin-bottom: 3.2rem;
   font-size: calc(2.8rem + (67 - 28) * (100vw - 32rem) / (1920 - 320));
 }
+.section--portfolio .section__item--header p {
+  margin: 2.4rem 0;
+}
 
 .section--portfolio {
   color: $primary-dark-color;
@@ -63,6 +66,6 @@
 @media (min-height: 650px) {
   .section--portfolio .section__item--header {
     height: calc(100vh - 14rem);
-    max-height: 80rem;
+    max-height: 60rem;
   }
 }

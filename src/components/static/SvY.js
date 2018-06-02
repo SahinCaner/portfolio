@@ -15,8 +15,8 @@ const SvY = () => {
             <strong> Saglik ve Yasam</strong>.
           </p> */}
           <p>
-            Redesigning and applying new strategies to Saglik ve Yasam to
-            attract more organic users from Google searches.
+            Redesigned and applied new strategies to Saglik ve Yasam to attract
+            more organic users from Google searches.
           </p>
           <ul className="skillset">
             <li>Experience Design</li>
@@ -46,8 +46,7 @@ const SvY = () => {
               people daily. Considering the quality of the content, this number
               was astonishingly low. In addition, the site had high bounce rates
               at approximately 75% and users were not spending enough time on
-              the site, at an average of 20 seconds per user, to increase the
-              volume of Google search results.
+              the site, at an average of 20 seconds per user.
             </p>
 
             <ImageZoom
@@ -78,9 +77,9 @@ const SvY = () => {
 
             <h3>MY ROLE & RESPONSIBILITIES</h3>
             <p>
-              I led the design and front-end development of Saglik ve Yasam and
-              I worked alone during this process. It took 8 weeks to complete
-              the design and development.
+              I worked alone on the UX/UI design and front-end development while
+              my ex-partner was working on back-end development. It took 8 weeks
+              to complete the design and development.
             </p>
           </div>
           <div className="context">
@@ -124,7 +123,7 @@ const SvY = () => {
               src="/images/svy-5.jpg"
               imageName="svy-5"
               alt="saglik ve yasam old related articles component"
-              caption="Old design of the related articles at the end of the page. Maybe the titles were not readable enough? Or too generic? Okay, I needed to solve this problem."
+              caption="Old design of the related articles at the end of the page. Maybe the titles were not readable enough? Or too generic? I needed to solve this problem."
             />
 
             <p>
@@ -144,8 +143,7 @@ const SvY = () => {
             <p>
               Analytics data from Google was showing that 40% of the visitors
               were using mobile devices and the old design did not have
-              mobile-friendly user interface. Punishing mobile users was not an
-              option for the redesign process. Thus, I had to redesign the
+              mobile-friendly user interface. Thus, I had to redesign the
               website with a mobile-first mindset. I started the redesign
               process by designing single Article Card Component.
             </p>
@@ -236,13 +234,13 @@ const SvY = () => {
           <div className="context">
             <h1>OUTCOME</h1>
             <p>
-              I have completed the design and the development in 8 weeks. And
-              following week we have launched the redesign of Saglik ve Yasam.
+              I completed the design and the development in 8 weeks. The
+              following week we launched the redesign of Saglik ve Yasam.
             </p>
             <p>
-              A year later launching the new design, Saglik ve Yasam gain a big
-              momentum from Google searches. Bounce rates were drop, people were
-              spending more time on the website and, its average daily unique
+              A year after launching the new design, Saglik ve Yasam gained
+              momentum from Google searches. Bounce rates dropped, people were
+              spending more time on the website, and its average daily unique
               visitor number was 12 times more than before.
             </p>
             <ul className="chart__list">
@@ -310,14 +308,14 @@ const SvY = () => {
                   <div className="circle">
                     <div className="inner__circle">
                       <h3>2000</h3>
-                      <h6>persons</h6>
+                      <h6>people</h6>
                     </div>
                   </div>
                   <h2>to</h2>
                   <div className="circle">
                     <div className="inner__circle">
                       <h3>25000</h3>
-                      <h6>persons</h6>
+                      <h6>people</h6>
                       <div className="increment">
                         <span />
                         <span />

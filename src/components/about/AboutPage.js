@@ -35,31 +35,27 @@ const AboutPage = () => {
           <div className="column__wrapper">
             <div className="column column--left">
               <h3>
-                I'm a User Experience professional. I specialize in visual
+                I'm a user experience professional. I specialize in visual
                 design, experience design, and front-end development.
               </h3>
 
               <p>
                 I have founded and worked on a wide range of projects from
                 creating social networks to building web portals. Some of them
-                include Genintra, Kiyasla,{" "}
-                <Link to="/portfolio/saglik-ve-yasam">Saglik ve Yasam</Link>,
-                Material UI and many more in the pipeline.
+                include Genintra, Kiyasla,
+                <Link to="/portfolio/saglik-ve-yasam"> Saglik ve Yasam</Link>,
+                and Material UI.
               </p>
 
               <p>
                 I am really excited about my next career move. I want to work
-                for a company that invest in React. I am currently seeking a
-                full-time Senior UX / UI position in Los Angeles, CA.
+                for a company that invests in React. I am currently seeking a
+                full-time Senior UX/UI position in Los Angeles, CA.
               </p>
 
               <p>
                 If you think I am a good fit for your company, please
-                <Link to="/contact"> contact</Link> me
-              </p>
-
-              <p>
-                Thank you, <br /> Caner SAHIN.
+                <Link to="/contact"> contact</Link> me.
               </p>
             </div>
             <div className="column column--right" />

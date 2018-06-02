@@ -11,7 +11,7 @@ ul.navigation li ~ li {
 ul.navigation li a {
   position: relative;
   padding-bottom: 0.5rem;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 ul.navigation li a:hover {
@@ -22,18 +22,19 @@ ul.navigation li a:before {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: .2rem;
+  height: 0.2rem;
   width: 100%;
   background-color: transparent;
   content: "";
+  border-radius: 0.1rem;
 }
 
 ul.navigation li a.active {
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
 
 ul.navigation li a.active:before {
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 @media (min-width: 768px) {

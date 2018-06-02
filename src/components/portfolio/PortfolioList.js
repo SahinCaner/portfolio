@@ -12,7 +12,7 @@ const PortfolioList = () => {
           <div className="portfolio__item portfolio__item__content">
             <h2>SAGLIK VE YASAM</h2>
             <p>
-              Redesigning and applying new strategies to Saglik ve Yasam to
+              Redesigned and applied new strategies to Saglik ve Yasam to
               attract more organic users from Google searches.
             </p>
             <div className="btn btn--link">READ MORE</div>
@@ -30,7 +30,7 @@ const PortfolioList = () => {
           </div>
           <div className="portfolio__item portfolio__item__content">
             <h2>KIYASLA</h2>
-            <p>Introducing smarter comparisons.</p>
+            <p>Introduced smarter comparisons.</p>
           </div>
         </div>
       </li>
@@ -45,7 +45,7 @@ const PortfolioList = () => {
           </div>
           <div className="portfolio__item portfolio__item__content">
             <h2>GENINTRA</h2>
-            <p>Man management made easy.</p>
+            <p>Employee management made easy.</p>
           </div>
         </div>
       </li>

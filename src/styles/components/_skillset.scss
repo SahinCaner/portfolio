@@ -1,18 +1,16 @@
 ul.skillset {
   display: flex;
   flex-direction: column;
-  margin: 4.8rem 0 0;
+  margin: 2.4rem 0 0;
+  padding-top: 4.8rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.03);
+  border-radius: 0.1rem;
 }
 ul.skillset li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 5rem;
-  padding: 0 3rem;
-  border-radius: 2.5rem;
+  padding: 0 0.4rem;
+  border-bottom: 0.5rem solid transparent;
   font-size: calc(1.4rem + (16 - 14) * (100vw - 32rem) / (1920 - 320));
-  background-color: rgba($primary-dark-color, 0.2);
-  border: 0.1rem solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 ul.skillset li ~ li {
@@ -20,7 +18,6 @@ ul.skillset li ~ li {
 }
 
 @media (min-width: 768px) {
-
   ul.skillset {
     flex-direction: row;
     align-items: center;

@@ -49,7 +49,7 @@ export class LoginPage extends React.Component {
                   <u>recruiter</u>
                 </em>
               </strong>{" "}
-              , send an email to{" "}
+              , please send an email to{" "}
               <a href="mailto:canersahin@gmail.com">canersahin@gmail.com</a> to
               request access to my portfolio.
             </li>

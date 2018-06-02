@@ -33,12 +33,6 @@ export class HomePage extends React.Component {
           imageURL: "/images/saglik-ve-yasam.jpg",
           tag: "Saglik ve yasam home page",
           imageName: "Saglik ve Yasam"
-        },
-        {
-          id: 4,
-          imageURL: "/images/materialui.jpg",
-          tag: "Material UI home page",
-          imageName: "Material UI"
         }
       ]
     };
@@ -64,7 +58,7 @@ export class HomePage extends React.Component {
             <div className="main__item">
               <div className="content">
                 <h1>
-                  Hello, my name is Caner. I'm a User Experience professional. I
+                  Hello, my name is Caner. I'm a user experience professional. I
                   specialize in visual design, experience design, and front-end
                   development.
                 </h1>
@@ -87,15 +81,24 @@ export class HomePage extends React.Component {
                             onMouseLeave={this.onMouseLeaveLink}
                           >
                             {" " + image.imageName}
-                          </Link>
-                          {this.state.images.length - 1 === image.id
-                            ? " "
-                            : ","}
+                          </Link>,
                         </span>
                       );
                     }
                   })}
-                  with many more in the pipeline.
+                  {" "}and
+                  <span>
+                    <Link
+                      to="/portfolio"
+                      id={4}
+                      className="inline"
+                      onMouseEnter={this.onMouseEnterLink}
+                      onMouseLeave={this.onMouseLeaveLink}
+                    >
+                      {" "}
+                      Material UI
+                    </Link>
+                  </span>.
                 </p>
                 <p>
                   I am currently looking for a full-time Senior UX / UI position
