@@ -33,6 +33,12 @@ export class HomePage extends React.Component {
           imageURL: "/images/saglik-ve-yasam.jpg",
           tag: "Saglik ve yasam home page",
           imageName: "Saglik ve Yasam"
+        },
+        {
+          id: 4,
+          imageURL: "/images/materialui.jpg",
+          tag: "Material UI home page",
+          imageName: "Material UI"
         }
       ]
     };
@@ -68,11 +74,34 @@ export class HomePage extends React.Component {
                   include
                   {this.state.images.map(image => {
                     {
-                      /* First picture is profile picture, display pictures has an ID bigger than 0 */
+                      /* First picture is profile picture. 
+                         Display pictures if has an ID bigger than 0 */
                     }
-                    if (image.id > 0) {
+                    if (image.id !== this.state.images.length - 1) {
+                      if (image.id > 0) {
+                        return (
+                          <span key={image.id}>
+                            <Link
+                              to="/"
+                              id={image.id}
+                              className="inline"
+                              onMouseEnter={this.onMouseEnterLink}
+                              onMouseLeave={this.onMouseLeaveLink}
+                            >
+                              {" " + image.imageName}
+                            </Link>
+                            {this.state.images.length - 1 === image.id
+                              ? " "
+                              : ","}
+                          </span>
+                        );
+                      }
+                    } else {
+                    /* add ", and" for the last project */
                       return (
                         <span key={image.id}>
+                          {" "}
+                          and
                           <Link
                             to="/"
                             id={image.id}
@@ -81,24 +110,11 @@ export class HomePage extends React.Component {
                             onMouseLeave={this.onMouseLeaveLink}
                           >
                             {" " + image.imageName}
-                          </Link>,
+                          </Link>
                         </span>
                       );
                     }
                   })}
-                  {" "}and
-                  <span>
-                    <Link
-                      to="/portfolio"
-                      id={4}
-                      className="inline"
-                      onMouseEnter={this.onMouseEnterLink}
-                      onMouseLeave={this.onMouseLeaveLink}
-                    >
-                      {" "}
-                      Material UI
-                    </Link>
-                  </span>.
                 </p>
                 <p>
                   I am currently looking for a full-time Senior UX / UI position
