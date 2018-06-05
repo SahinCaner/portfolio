@@ -25,16 +25,42 @@ const SvY = () => {
           </ul>
         </div>
       </div>
+      <div className="section__item section__item--summary">
+        <div className="context">
+          <div className="container container--column">
+            <h2>SUMMARY</h2>
+            <ul>
+              <li>
+                I completed the design and the development in{" "}
+                <strong>8 weeks.</strong>
+              </li>
+              <li>
+                Average daily unique visitor number increased from 2,000 people to <strong>25,000 people</strong>.
+              </li>
+              <li>
+                Bounce rates dropped from 75% to <strong>42%.</strong>{" "}
+              </li>
+              <li>
+                Average session duration on the website increased from 20 seconds to <strong>2 minutes 30 seconds.</strong>{" "}
+              </li>
+            </ul>
+            <p className="muted muted--info">
+              - We reached these numbers <u>within a year</u> after launching the new
+              design.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="section__item section__item--content">
         <div className="container container--column">
           <div className="context">
             <h1>WHAT IS SAGLIK VE YASAM?</h1>
             <p>
-              An online health and well-being information source for everyone
-              who needs healing or wants to live a healthier life. Saglik ve
-              Yasam had content partnership domestically and internationally
-              with many health organizations and content creators such as Mayo
-              Clinic and Greatist.
+              Saglik ve Yasam is an online health and well-being information
+              source for everyone who needs healing or wants to live a healthier
+              life. Saglik ve Yasam had content partnership domestically and
+              internationally with many health organizations and content
+              creators such as Mayo Clinic and Greatist.
             </p>
 
             <p>
@@ -252,7 +278,7 @@ const SvY = () => {
                   <div className="circle">
                     <div className="inner__circle">
                       <h3>20</h3>
-                      <h6>secs</h6>
+                      <h6>seconds</h6>
                     </div>
                   </div>
                   <h2>to</h2>
@@ -307,14 +333,14 @@ const SvY = () => {
                 <div className="result">
                   <div className="circle">
                     <div className="inner__circle">
-                      <h3>2000</h3>
+                      <h3>2,000</h3>
                       <h6>people</h6>
                     </div>
                   </div>
                   <h2>to</h2>
                   <div className="circle">
                     <div className="inner__circle">
-                      <h3>25000</h3>
+                      <h3>25,000</h3>
                       <h6>people</h6>
                       <div className="increment">
                         <span />
@@ -332,20 +358,20 @@ const SvY = () => {
           <div className="context">
             <h1>LESSONS</h1>
             <p>
-              In my opinion to have successful UX, you have to think every
-              aspect of the project. UX is combination and harmony of skillsets
-              that includes design and development. Only then your website can
-              have a good sense of UX feeling.
+              In my experience, in order to design and develop a successful UX,
+              one must consider every aspect of the project. UX design and
+              development is a combination and harmony of skill sets.
             </p>
 
             <p>
               For websites like Saglik ve Yasam I always thought quality content
-              is the most important ingredient and I still think it is true.
-              However, just because website has quality content that does not
-              mean it will have better Google search result appearence. In fact,
-              it is much more complicated. You have to make it work Search
-              Engine Optimization, Back-end and Front-end Development together
-              inorder to achive smooth User Experience feeling.
+              was the most important ingredient and I still think it is true.
+              However, just because a website has quality content that does not
+              mean it will have a higher rank on a Google search result page. In
+              fact, it is much more complicated. Search engine optimization,
+              back-end and front-end development, and UX/UI design must work
+              together in order to achieve a smooth experience for users to
+              interact with quality content.
             </p>
             {/* <p>
               What I have done for Saglik ve Yasam.
@@ -367,14 +393,14 @@ const SvY = () => {
               <em>another bites to dust</em> in the Web.
             </p> */}
             <p className="muted">
-              PS: After we launched the redesign of Saglik ve Yasam, we had so
-              many offer for the website. One and half year later we decided to
+              PS: After we launched the redesign of Saglik ve Yasam, we had many
+              offers for the website. One and half years later we decided to
               sell Saglik ve Yasam.
             </p>
             <p className="muted">
-              PPS: Company owner that bought Saglik ve Yasam from us, said "We
-              really wanted to buy Saglik ve Yasam and its design made a huge
-              impact on our decision."
+              PPS: The company owner that bought Saglik ve Yasam from us said:
+              "We really wanted to buy Saglik ve Yasam and its design made a
+              huge impact on our decision."
             </p>
           </div>
         </div>

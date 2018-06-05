@@ -63,7 +63,7 @@ export class LoginForm extends Component {
           value={this.state.loginAuthentication.email}
           onChange={this.updateLoginState}
           error={this.state.errors.email}
-          placeholder="Enter email that provided to you."
+          placeholder="Enter email."
         />
         <TextInput
           password
@@ -72,7 +72,7 @@ export class LoginForm extends Component {
           value={this.state.loginAuthentication.password}
           onChange={this.updateLoginState}
           error={this.state.errors.password}
-          placeholder="Enter password that provided to you."
+          placeholder="Enter password."
         />
         <div className="input__group">
           <button

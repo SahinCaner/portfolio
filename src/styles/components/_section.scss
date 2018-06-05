@@ -20,6 +20,10 @@
   font-size: calc(1.6rem + (21 - 16) * (100vw - 32rem) / (1920 - 320));
 }
 
+.section__item--summary {
+  background-color: rgba($primary-dark-color, 0.025);
+}
+
 .section--portfolio .section__item--header {
   display: flex;
   align-items: center;

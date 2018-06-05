@@ -97,7 +97,7 @@ export class HomePage extends React.Component {
                         );
                       }
                     } else {
-                    /* add ", and" for the last project */
+                      /* add ", and" for the last project */
                       return (
                         <span key={image.id}>
                           {" "}
@@ -110,14 +110,14 @@ export class HomePage extends React.Component {
                             onMouseLeave={this.onMouseLeaveLink}
                           >
                             {" " + image.imageName}
-                          </Link>
+                          </Link>.
                         </span>
                       );
                     }
                   })}
                 </p>
                 <p>
-                  I am currently looking for a full-time Senior UX / UI position
+                  I am currently looking for a full-time Senior UX/UI designer position
                   in Los Angeles, CA.
                 </p>
                 <p>

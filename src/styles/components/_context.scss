@@ -34,12 +34,16 @@
 
 .context p {
   margin: 0;
-  line-height: 1.8;
+  line-height: 1.9;
   color: rgba($primary-dark-color, 0.85);
 }
 
 .context p.muted {
   color: rgba($primary-dark-color, 0.4);
+}
+
+.context p.muted--info {
+  font-size: calc(1.4rem + (16 - 14) * (100vw - 32rem) / (1920 - 320));
 }
 
 .context p + p {
@@ -103,7 +107,18 @@
   margin-top: 4.8rem;
 }
 
+.section__item--summary ul {
+  margin: 0;
+}
 
+.section__item--summary ul + p {
+  margin-top: 3.2rem;
+}
+
+.section__item--summary .context {
+  margin: 0;
+  padding: 9.6rem 0;
+}
 
 @media (min-width: 768px) {
   .image__wrapper {
