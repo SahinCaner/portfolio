@@ -7,7 +7,7 @@ import LoginForm from "../login/LoginForm";
 export class LoginPage extends React.Component {
   onLogin = ({ email, password }) => {
     this.props.startLogin(email, password).then(() => {
-      this.props.history.push(`/about`);
+      this.props.history.push(`/`);
     });
   };
 

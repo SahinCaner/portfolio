@@ -284,8 +284,8 @@ const SvY = () => {
                   <h2>to</h2>
                   <div className="circle">
                     <div className="inner__circle">
-                      <h3>2:30</h3>
-                      <h6>minutes</h6>
+                      <h3>140</h3>
+                      <h6>seconds</h6>
                       <div className="increment">
                         <span />
                         <span />
