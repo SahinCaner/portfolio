@@ -24,6 +24,10 @@
   background-color: rgba($primary-dark-color, 0.025);
 }
 
+.section__item--warning {
+  background-color: rgba($primary-color, 0.1);
+}
+
 .section--portfolio .section__item--header {
   display: flex;
   align-items: center;

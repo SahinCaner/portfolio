@@ -7,8 +7,8 @@ const Promo = () => {
       <div className="promo__item">
         <div className="container container--normal">
           <h1>
-            I am currently looking for a full-time <br /> Senior UX/UI designer position in
-            Los Angeles, CA.
+            I am currently looking for a UX/UI designer position in Los Angeles,
+            CA.
           </h1>
           <h3>If you are interested in working with me contact me now!</h3>
           <Link to="/contact" className="btn btn--primary">

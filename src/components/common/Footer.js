@@ -12,8 +12,8 @@ const Footer = props => {
         <div className="container">
           <div className="footer__about">
             <p>
-              Caner Sahin is a Turkish UX/UI designer and developer <br />living
-              in Los Angeles, CA.
+              Caner Sahin is a Turkish UX/UI designer living in sunny <br /> Los
+              Angeles, CA.
             </p>
           </div>
 
@@ -36,4 +36,7 @@ const mapDispatchToProps = dispatch => ({
   startLogout: () => dispatch(startLogout())
 });
 
-export default connect(undefined, mapDispatchToProps)(Footer);
+export default connect(
+  undefined,
+  mapDispatchToProps
+)(Footer);

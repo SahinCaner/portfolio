@@ -5,6 +5,21 @@ const PortfolioList = () => {
   return (
     <ul className="portfolio__list">
       <li>
+        <Link to="/portfolio/kiyasla">
+          <div className="portfolio__item portfolio__item__logo">
+            <img src="/images/kiyasla-logo.png" alt="Kiyasla logo" />
+          </div>
+          <div className="portfolio__item portfolio__item__content">
+            <h2>KIYASLA</h2>
+            <p>
+              Created a website that introduced smarter comparisons between
+              electronic products.
+            </p>
+            <div className="btn btn--link">READ MORE</div>
+          </div>
+        </Link>
+      </li>
+      <li>
         <Link to="/portfolio/saglik-ve-yasam">
           <div className="portfolio__item portfolio__item__logo">
             <img src="/images/SvYLogo.png" alt="Saglik ve Yasam logo" />
@@ -19,23 +34,23 @@ const PortfolioList = () => {
           </div>
         </Link>
       </li>
-
       <li>
-        <div className="no__link portfolio__coming__soon">
-          <div className="portfolio__tag">
-            <p>Coming Soon</p>
-          </div>
+        <Link to="/portfolio/genintra">
           <div className="portfolio__item portfolio__item__logo">
-            <img src="/images/kiyasla-logo.png" alt="Kiyasla logo" />
+            <img src="/images/genintra-logo.png" alt="Genintra logo" />
           </div>
           <div className="portfolio__item portfolio__item__content">
-            <h2>KIYASLA</h2>
-            <p>Introduced smarter comparisons.</p>
+            <h2>GENINTRA</h2>
+            <p>
+              Designed and developed an employee management system for a Fortune
+              500 company.
+            </p>
+            <div className="btn btn--link">READ MORE</div>
           </div>
-        </div>
+        </Link>
       </li>
 
-      <li>
+      {/* <li>
         <div className="no__link portfolio__coming__soon">
           <div className="portfolio__tag">
             <p>Coming Soon</p>
@@ -48,7 +63,7 @@ const PortfolioList = () => {
             <p>Employee management made easy.</p>
           </div>
         </div>
-      </li>
+      </li> */}
     </ul>
   );
 };

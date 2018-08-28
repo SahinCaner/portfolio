@@ -110,15 +110,16 @@ export class HomePage extends React.Component {
                             onMouseLeave={this.onMouseLeaveLink}
                           >
                             {" " + image.imageName}
-                          </Link>.
+                          </Link>
+                          .
                         </span>
                       );
                     }
                   })}
                 </p>
                 <p>
-                  I am currently looking for a full-time Senior UX/UI designer position
-                  in Los Angeles, CA.
+                  I am currently looking for a UX/UI designer position in Los
+                  Angeles, CA.
                 </p>
                 <p>
                   <Link className="btn btn--primary" to="/">

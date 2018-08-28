@@ -9,11 +9,6 @@ const SvY = () => {
       <div className="section__item section__item--header">
         <div className="container container--column">
           <h1>SAGLIK VE YASAM</h1>
-          {/* <p>
-            In 2016, my partner and I were looking for a project to boost our
-            future projects and that is how we decided to buy
-            <strong> Saglik ve Yasam</strong>.
-          </p> */}
           <p>
             Redesigned and applied new strategies to Saglik ve Yasam to attract
             more organic users from Google searches.
@@ -35,18 +30,20 @@ const SvY = () => {
                 <strong>8 weeks.</strong>
               </li>
               <li>
-                Average daily unique visitor number increased from 2,000 people to <strong>25,000 people</strong>.
+                Average daily unique visitor number increased from 2,000 people
+                to <strong>25,000 people</strong>.
               </li>
               <li>
                 Bounce rates dropped from 75% to <strong>42%.</strong>{" "}
               </li>
               <li>
-                Average session duration on the website increased from 20 seconds to <strong>2 minutes 30 seconds.</strong>{" "}
+                Average session duration on the website increased from 20
+                seconds to <strong>2 minutes 30 seconds.</strong>{" "}
               </li>
             </ul>
             <p className="muted muted--info">
-              - We reached these numbers <u>within a year</u> after launching the new
-              design.
+              - We reached these numbers <u>within a year</u> after launching
+              the new design.
             </p>
           </div>
         </div>
@@ -256,7 +253,13 @@ const SvY = () => {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="image image--full">
+          <img src="/images/svy-responsive.png" alt="" />
+        </div>
+
+        <div className="container container--column">
           <div className="context">
             <h1>OUTCOME</h1>
             <p>
@@ -373,25 +376,6 @@ const SvY = () => {
               together in order to achieve a smooth experience for users to
               interact with quality content.
             </p>
-            {/* <p>
-              What I have done for Saglik ve Yasam.
-            </p>
-            <ul>
-              <li>Pick strategic keywords.</li>
-              <li>Have strategic backlinks.</li>
-              <li>Have mobile friendly UI.</li>
-              <li>Have readable short URLs.</li>
-              <li>Have semantic HTML.</li>
-              <li>Have good amount of vocabulary in the content.</li>
-              <li>Have internal and external links in your content.</li>
-              <li>Optimize images.</li>
-              <li>Have great load time performance.</li>
-            </ul>
-            <p>
-              And you have to present all these data in a meaningful way to your
-              user base. and visualization for your content or you are just
-              <em>another bites to dust</em> in the Web.
-            </p> */}
             <p className="muted">
               PS: After we launched the redesign of Saglik ve Yasam, we had many
               offers for the website. One and half years later we decided to
@@ -406,12 +390,15 @@ const SvY = () => {
         </div>
       </div>
 
-      {/* <div className="next__article">
-        <Link to="/portfolio/kiyasla">
+      <div className="next__article">
+        <Link to="/portfolio/genintra">
           <div className="container container--normal">
             <h4>UP NEXT</h4>
-            <h1>KIYASLA</h1>
-            <p>Introducing smarter comparisons.</p>
+            <h1>GENINTRA</h1>
+            <p>
+              Designed and developed an employee management system for a Fortune
+              500 company.
+            </p>
           </div>
         </Link>
 
@@ -419,11 +406,11 @@ const SvY = () => {
           src="/images/blank.png"
           alt="Kiyas.la home page"
           style={{
-            background: "url(/images/kiyasla.jpg) no-repeat top left",
+            background: "url(/images/genintra_article.jpg) no-repeat top left",
             backgroundSize: "cover"
           }}
         />
-      </div> */}
+      </div>
 
       <Promo />
     </div>

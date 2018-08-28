@@ -6,9 +6,6 @@ const ContactPage = () => {
       <div className="section__item section__item--header">
         <div className="container container--column">
           <h1>Let's Communicate</h1>
-          <h3>
-            Currently I am looking for a full-time Senior UX / UI position.
-          </h3>
           <p>
             <em>
               If you think I am a <strong> good fit </strong> for your company,

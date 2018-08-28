@@ -3,262 +3,515 @@ import { Link } from "react-router-dom";
 import ImageZoom from "../image-zoom/ImageZoom";
 import Promo from "../common/Promo";
 
-const SvY = () => {
+const Kiyasla = () => {
   return (
     <div className="section section--portfolio">
       <div className="section__item section__item--header">
         <div className="container container--column">
           <h1>KIYASLA</h1>
           <p>
-            In 2016, me and my partner were looking for a project to boost our
-            future projects and that is how we decided to buy
-            <strong> Saglik ve Yasam</strong>.
+            Created a website that introduced smarter comparisons between
+            electronic products.
           </p>
           <ul className="skillset">
+            <li>Product Design</li>
             <li>Experience Design</li>
-            <li>Visual Design</li>
             <li>Front-end Development</li>
           </ul>
+        </div>
+      </div>
+      <div className="section__item section__item--summary">
+        <div className="context">
+          <div className="container container--column">
+            <h2>SUMMARY</h2>
+            <ul>
+              <li>
+                I completed the design and the development in
+                <strong> 12 weeks.</strong>
+              </li>
+              <li>
+                In 2015, almost <strong> 14 million</strong> people in Turkey
+                visited Kiyasla which is 20% of the total population.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="section__item section__item--content">
         <div className="container container--column">
           <div className="context">
-            <h1>WHAT IS SAGLIK VE YASAM?</h1>
+            <h1>WHAT IS KIYASLA?</h1>
             <p>
-              An online health and well-being information source for everyone
-              who needs healing or who wants to have a healtier life.
+              Kiyasla is a web-based smart comparison engine that generates
+              comprehensive data to allow consumers to compare two products,
+              such as smartphones, digital cameras, and tablets.
             </p>
             <p>
-              Saglik ve Yasam had content partnership in and out of Turkey with
-              so many health organisations and content creators such as Mayo
-              Clinic and Greatist.
+              Our goal was to create a service for young adults to help them to
+              make a “perfect purchase” when searching to select their next
+              smartphone.
             </p>
+            <p>
+              The minimum viable product of this project was completed in 12
+              weeks and was a team of 3 people.
+            </p>
+            <div className="image__wrapper image__wrapper--gallery">
+              <div className="image__gallery__item image__gallery__item--left">
+                <div className="image">
+                  <ImageZoom
+                    src="/images/kiyasla-1.jpg"
+                    imageName="kiyasla-1"
+                    alt="First prototype of Kiyasla"
+                  />
+                  <span className="order">1</span>
+                </div>
+              </div>
+              <div className="image__gallery__item image__gallery__item--right">
+                <div className="image">
+                  <ImageZoom
+                    src="/images/kiyasla-2.jpg"
+                    imageName="kiyasla-2"
+                    alt="Second iteration of Kiyasla's homepage"
+                  />
+                  <span className="order">2</span>
+                </div>
 
+                <div className="image">
+                  <ImageZoom
+                    src="/images/kiyasla-3.jpg"
+                    imageName="kiyasla-3"
+                    alt="Third iteration of Kiyasla's homepage"
+                  />
+                  <span className="order">3</span>
+                </div>
+                <div className="image">
+                  <ImageZoom
+                    src="/images/kiyasla-4.jpg"
+                    imageName="kiyasla-4"
+                    alt="Fourth iteration of Kiyasla's homepage"
+                  />
+                  <span className="order">4</span>
+                </div>
+              </div>
+              <figcaption>
+                These images are Kiyasla's homepage iterations over time. The
+                changes that we made were based on user feedback.
+              </figcaption>
+            </div>
+            <h3>KEY MOTIVATION & GOAL</h3>
             <p>
-              Even though, Saglik ve Yasam had so many quality, proven and
-              trusted content it was not a successful project. It did not have
-              enough organic traffic and most of the users were coming from
-              social media sites through advertisements. And even with
-              advertisements it could only attract a shy of average
-              <strong> 2000 people </strong> daily (depends on a budget, higher
-              advertisement budget means, higher traffic). However, it is a very
-              low number for its content.
+              {" "}
+              In 2011, my brother and I were shopping for a smartphone and we
+              were overwhelmed with our options. Back in 2011, smartphones were
+              still considered new and most people had a vague idea about those
+              products. As we searched through our options, we wanted to compare
+              some of the products and we found comparison websites both in
+              Turkish and English. However, they were all doing the same kind of
+              comparisons: putting two or more products’ features side by side
+              in a table row, without clear explanations of the features being
+              compared.
             </p>
 
             <ImageZoom
-              src="/images/svy-1.jpg"
-              alt="saglik ve yasam index page"
-              caption="Early design of Saglikveyasam.com's home page before I redesign
-                it."
+              src="/images/kiyasla-44.jpg"
+              imageName="kiyasla-44"
+              alt="geekaphone comparison page"
+              caption="This was a typical smartphone comparison in 2012. 
+              Putting features side by side does not tell users why one feature is superior to the other one.
+               Credits geekaphone.com"
             />
 
-            <h3>KEY MOTIVATION & GOAL</h3>
-
             <p>
-              In 2016, me and my ex-partner were brain storming about a booster
-              project. We needed a project that can attract high volumes from
-              Google searches inorder to launch and boost our new projects
-              without spending any money on advertisements. That was our key
-              motivation.
-            </p>
-
-            <p>
-              Meanwhile, old firm that I was working for decided to sell Saglik
-              ve Yasam and its content rights. It was a perfect project for our
-              motivation.
-            </p>
-
-            <p>
-              Our keygoal was to establish a new strategy and redesign inorder
-              to achive more users and create a trusted online healthcare
-              information source in Turkey.
+              That was the biggest problem with the websites that compared
+              products. Users did not know what all those numbers in rows meant
+              for them. We wanted to bring a new approach to this problem. We
+              wanted to make it easier to use and most importantly easier to
+              understand.
             </p>
 
             <h3>MY ROLE & RESPONSIBILITIES</h3>
+
             <p>
-              I led the design and front-end development of Saglik ve Yasam and
-              I worked alone during this process. It took 8 weeks to complete
-              the design and development.
+              Kiyas.la was built by three people. My brother Fatih and I were
+              working together in the same space and our graphic designer,
+              Baris, was working remotely. We used Trello for our project
+              management and Dropbox to share files within our small team.
+            </p>
+            <p>
+              I was responsible for the User Experience of the project. I drew
+              the wireframes, researched consumer use, and extensively
+              researched websites that compared products. I converted photoshop
+              files to CSS/HTML and JS.
             </p>
           </div>
           <div className="context">
             <h4>KICKOFF</h4>
-            <h1>PROCESS</h1>
+            <h1>MY DESIGN PROCESS</h1>
             <p>
-              There were already so many good articles and information in
-              Saglikveyasam.com and we had no idea why users was not spending
-              any time on the website.
+              I followed the Lean UX Design Thinking process to make sure that
+              my design decisions were supported by user research and feedback.
             </p>
+            <figure>
+              <img src="/images/lean.png" alt="Lean UX process" />
+            </figure>
+            <h3>EMPATHIZING WITH THE USER</h3>
             <p>
-              To understand why onboarded user's bounce rate were so high (80%),
-              we set up Crazyegg’s heat map and collected our users behaviour
-              data for a month.
+              To start off, I created a persona of potential Kiyasla user based
+              on online research and my understanding of people who were
+              shopping online for smartphones. I came back with this consumer in
+              mind throughout our project to guide my design decisions.
             </p>
-
+            <div className="persona">
+              <div className="persona__item persona__item--image">
+                <img src="/images/emrah.jpg" alt="Picture of a male person." />
+                <div className="persona__name">EMRAH</div>
+              </div>
+              <div className="persona__item">
+                <h4>DEMOGRAPHICS</h4>
+                <ul>
+                  <li>
+                    <span>Age: </span> 20
+                  </li>
+                  <li>
+                    <span>Sex: </span> Male
+                  </li>
+                  <li>
+                    <span>Location: </span> Ankara, Turkey
+                  </li>
+                  <li>
+                    <span>Occupation: </span> University Student
+                  </li>
+                </ul>
+              </div>
+              <div className="persona__item">
+                <h4>FRUSTRATIONS</h4>
+                <ul>
+                  <li>Keeping track of new technologies and new products.</li>
+                  <li>Unreliable information.</li>
+                  <li>Complicated websites.</li>
+                </ul>
+              </div>
+              <div className="persona__item">
+                <h4>NEEDS & GOALS</h4>
+                <ul>
+                  <li>Searching for a new smartphone.</li>
+                  <li>Looking for the best option for his budget.</li>
+                  <li>Reaching information as quickly as possible.</li>
+                </ul>
+              </div>
+            </div>
+            <p>This persona helped me to ask these questions to myself:</p>
+            <ul>
+              <li>Who is the user I am designing for? </li>
+              <li>What exactly does the user want from my website? </li>
+              <li>
+                How is the user going to achieve his goals when he visits my
+                site?
+              </li>
+              <li>
+                Why would the user come to my website and not anywhere else?
+              </li>
+            </ul>
             <p>
-              The data we collected from Crazyegg made me realize, almost no one
-              was clicking the side related articles. That made me think, maybe
-              I should remove those articles and let users focus on the article
-              itself instead of distracting them early on the page.
+              With these questions in mind, whenever I felt lost during the
+              design decisions process I was always able to remember whom I was
+              designing this project for.
             </p>
-
-            <ImageZoom
-              src="/images/svy-2.png"
-              alt="saglik ve yasam article page"
-              caption="Side related articles can be seen under &quot;Videolar&quot; section."
-            />
-
+            <h3>DEFINING AND PRIORITIZING THE PROBLEMS</h3>
             <p>
-              With the old design of Saglik ve Yasam, most of the users also
-              were not clicking to the related articles at the end of pages.
-              They were clearly losing interest after they read the articles.
+              While I was designing Kiyasla, I tried to solve so many problems
+              but in this case study I am going to focus two pain points.
             </p>
-
-            <ImageZoom
-              src="/images/svy-5.png"
-              alt="saglik ve yasam old related articles component"
-              caption="Old design of the related articles at the end of the page. Maybe
-                the titles were not readable enough? Or too generic? Okay I
-                needed to solve this problem."
-            />
-
+            <h4>Pain Point 1: Comparison pages are hard to understand.</h4>
             <p>
-              Problem with the old related article design, it was not readable
-              enough and they looked like advertisements rather than interesting
-              article titles and images.
+              Reading something that we don't understand can be really
+              frustrating. This is usually what happens when you compare
+              products on the web. Almost all of the websites use the same kind
+              of comparison design. If you ever tried to compare products
+              before, you probably ended up a page like this:{" "}
             </p>
-
-            <p>
-              To solve this problem I wanted to design something unusual, unique
-              and bold. I wanted to create a fun experience for readers rather
-              than boring encyclopedia like or regular CMS like website reading
-              experience.
-            </p>
-
-            <p>
-              With the rise of the smart phone usage in the world, I had to
-              redesign the website with mobile-first mindset. And I started to
-              redesign process by designing single Article Card Component.
-            </p>
-
             <div className="image__wrapper">
               <div className="image">
                 <ImageZoom
-                  src="/images/svy-3.png"
-                  alt="saglik ve yasam article component doodle"
-                  caption="Early doodle of the new design of the single Article Card
-                    Component with and without an image."
+                  src="/images/kiyasla-40.jpg"
+                  imageName="kiyasla-40"
+                  alt="General product comparison"
+                  caption="This is a comparison web page from 2018. Credits gsmarena.com"
                 />
               </div>
-
               <div className="image">
                 <ImageZoom
-                  src="/images/svy-4.png"
-                  alt="saglik ve yasam related articles at the bottom of the page"
-                  caption="Skecth of the article page. Article Cards can be seen at the
-                    bottom of the page sitting side by side."
+                  src="/images/kiyasla-41.jpg"
+                  imageName="kiyasla-41"
+                  alt="General product comparison"
+                  caption="When the user scrolls down, it gets even more complicated."
                 />
               </div>
             </div>
-
             <p>
-              New design of the Article Card Component, helped me to reuse it
-              anywhere I want in the website. So I also decided to use it on
-              home page too.
+              It is not very surprising why so many people get frustrated and
+              they do not understand what all those numbers and features mean.
             </p>
-
-            <ImageZoom
-              src="/images/svy-6.png"
-              alt="redesigned saglik ve yasam home page"
-              caption="Redesigned home page of Saglik ve Yasam. I used the same Article
-                Card Components in the home page."
-            />
-
             <p>
-              I redesigned every page with the new design language. I used
-              bigger fonts, bigger images, more white spaces all over the
-              website to be more consistent. With the usage of more white space,
-              redesigned Saglik ve Yasam looked more modern, fresh and easy to
-              read and scan.
+              This pain point was the main reason why we decided to build
+              Kiyasla. We wanted to bring new an approach to this problem while
+              keeping a similar layout. We wanted to design a system that could
+              compare any numeric or boolean value and make a meaningful
+              explanation with those values.
             </p>
-
+            <h4>
+              Pain Point 2: It takes too many steps to compare two products.
+            </h4>
+            <p>
+              To make a comparison between products, a user would select a
+              brand, followed by a model, and then choose another brand and
+              model to compare, which was a four-step process to compare two
+              products.
+            </p>
             <div className="image__wrapper">
               <div className="image">
                 <ImageZoom
-                  src="/images/svy-9.png"
-                  alt="Pregnancy calculator page"
-                  caption="New pregnancy calculator page. Select the latest period date
-                    and it can calculate your estimated due date."
+                  src="/images/kiyasla-60.jpg"
+                  imageName="kiyasla-60"
+                  alt="General product comparison"
+                  caption="This was the typical scenario to compare products. 
+                          First, the user selects the brand and then selects the model and 
+                          repeats that every time they want to make a comparison."
                 />
               </div>
               <div className="image">
                 <ImageZoom
-                  src="/images/svy-10.png"
-                  alt="Diseases index page"
-                  caption="After clicking calculate button, you can learn your due date and
-                    weekly pregnancy progess."
+                  src="/images/kiyasla-61.jpg"
+                  imageName="kiyasla-61"
+                  alt="General product comparison"
+                  caption="First, the user selects a brand from a dropdown list."
                 />
               </div>
             </div>
-
+            <p>
+              In addition, some brands have hundreds of products to select from,
+              and users are overloaded with trying to find the specific model
+              they want to compare.{" "}
+            </p>
+            <ImageZoom
+              src="/images/kiyasla-62.jpg"
+              imageName="kiyasla-62"
+              alt="General product comparison"
+              caption="Next, the user tries to find the model they are looking for."
+            />
+            <p>
+              Forcing users to select the brand and model in this fashion made
+              them quickly irritated at trying to pick the correct product, in
+              some cases getting it wrong and having to start the process over
+              again. Users were spending a lot of time trying to navigate these
+              sites, getting aggravated with the process, and abandoning their
+              search.
+            </p>
+            <h3>IDEATING THE SOLUTION</h3>
+            <p>
+              Next, it was time to start sketching. I came up with several
+              potential solutions to each of the problems and made some rough UI
+              sketches.
+            </p>
+            <ImageZoom
+              src="/images/kiyasla-20.jpg"
+              imageName="kiyasla-20"
+              alt="Lo-Fi sketches of Kiyasla"
+              caption="Here are some of the Lo-Fi sketches that I shared with our graphic designer, Baris."
+            />
+            <p>
+              As soon as I did the Lo-Fi UI sketches I shared them with my team
+              and got feedback from them to refine my sketches and narrow down
+              my solutions for the Hi-Fi mockups. After narrowing down, I sent
+              all the Lo-Fi sketches to our graphic designer team member, Baris.
+            </p>
+            <h3>PROTOTYPING</h3>
+            <p>
+              Baris did an outstanding job turning my Lo-Fi sketches into Hi-Fi
+              mockups. He spent two weeks designing the Hi-Fi mockups and sent
+              them to me as photoshop files. Then I started to convert those
+              photoshop files to HTML/CSS/JS. It took me about three weeks to
+              convert those photoshop files into prototypes.
+            </p>
+            <p>
+              <strong>
+                Pain Point 1: Comparison pages are hard to understand.
+              </strong>
+            </p>
+            <p>
+              <strong>Design solution:</strong> I took the typical product
+              comparison design layout approach and modified it by adding an
+              extra column to the far right. With that extra column, I was able
+              to educate users on the features being compared and what the data
+              meant for them. Once a user understands the features being
+              compared, they can make an informed choice on purchasing a
+              product.
+            </p>
+            <ImageZoom
+              src="/images/kiyasla-7.jpg"
+              imageName="kiyasla-7"
+              alt="Fourth prototype of comparison page"
+              caption="Here are clear explanations of different features between two products. 
+                       It helps the user to make an informed purchase."
+            />
             <div className="image__wrapper">
               <div className="image">
                 <ImageZoom
-                  src="/images/svy-8.png"
-                  alt="Article page"
-                  caption="Redesigned article page. No side columns, no distraction."
+                  src="/images/kiyasla-5.jpg"
+                  imageName="kiyasla-5"
+                  alt="This is the first version of the comparison page."
+                  caption="This is the first version of the comparison page."
                 />
               </div>
+
               <div className="image">
                 <ImageZoom
-                  src="/images/svy-7.png"
-                  alt="Diseases index page"
-                  caption="Redesigned disease index page. Bigger letter helps users to
-                    understand which letter is active."
+                  src="/images/kiyasla-6.jpg"
+                  imageName="kiyasla-6"
+                  alt="Over three years, we updated the comparison page based on user feedback."
+                  caption="Over three years, we updated the comparison page based on user feedback."
+                />
+              </div>
+            </div>
+            <p>
+              <strong>
+                Pain Point 2: It takes too many steps to compare two products.
+              </strong>
+            </p>
+            <p>
+              <strong>Design solution:</strong> In 2011, the autocomplete
+              feature was new and it was not a common approach. Having a
+              developer background helped me to pull that feature into my design
+              decision. It is important to know what kind of technologies you
+              can bring to your design to solve problems like this.
+            </p>
+            <p>
+              I wanted to use the autocomplete feature because that would
+              eliminate the extra two steps and it would be much more
+              user-friendly. Using the autocomplete feature, a user would not
+              need to know the specific brand and model, only one or the other,
+              to select the option they’re looking for. It narrows the results
+              of what they are looking for to more easily select the correct
+              one.
+            </p>
+            <ImageZoom
+              src="/images/kiyasla-80.jpg"
+              imageName="kiyasla-80"
+              alt="Fourth prototype of comparison page"
+              caption="As soon as the user starts typing, an
+              input box makes an AJAX request to the server to bring all relative options."
+            />
+            <div className="image__wrapper">
+              <div className="image">
+                <ImageZoom
+                  src="/images/kiyasla-81.jpg"
+                  imageName="kiyasla-81"
+                  alt="Fourth prototype of comparison page"
+                  caption="After the server response to an AJAX request, 
+                  the user can use the up and down arrow keys or the mouse to select the option."
+                />
+              </div>
+
+              <div className="image">
+                <ImageZoom
+                  src="/images/kiyasla-82.jpg"
+                  imageName="kiyasla-82"
+                  alt="Fourth prototype of comparison page"
+                  caption="The user can type either the brand or model, and the server can provide relevant options."
                 />
               </div>
             </div>
           </div>
 
           <div className="context">
-            <h1>OUTCOME</h1>
+            <h1>VALIDATION & OUTCOME</h1>
             <p>
-              A year later we saw big improvment on Saglik ve Yasam analytics.
+              After prototyping we conducted user research. Our subject group
+              was composed of 10 university students in Ankara, Turkey. Each
+              student was given tasks to complete on our prototype website and
+              our competitors’ websites. Tasks were assigned based on common
+              features across all websites. Every task was timed and users were
+              asked to rank all the websites according to usability after
+              completing each task.
             </p>
-            <ul>
-              <li>
-                Average time spend per person went from 20 secs to 2:30 minutes.
-              </li>
-              <li>Bounce rate decreased to 42% from 75%.</li>
-              <li>Daily unique visitor number increased from 2000 to 25000.</li>
-            </ul>
+
+            <ImageZoom
+              src="/images/kiyasla-90.jpg"
+              imageName="kiyasla-90"
+              alt="Fourth prototype of comparison page"
+              caption="Each task was timed in seconds."
+            />
 
             <p>
-              After we redesigned Saglik ve Yasam, we had so many offer for the
-              website. One and half year later after redesigning, we decided to
-              sell Saglik ve Yasam.
+              All the university students we surveyed ranked Kiyasla as their
+              first choice in terms of usability. On average users needed less
+              time to complete each task on Kiyasla than on competitors'
+              websites.
             </p>
-            <p className="muted">
-              PS: Company owner that owns Saglik ve Yasam said "We really wanted
-              to buy Saglik ve Yasam and its design made a huge impact on our
-              decision."
+
+            <p>
+              After receiving validation from the subject group, we released the
+              first version of Kiyasla. Within a week it got featured in the
+              biggest tech news
+              <a
+                href="https://webrazzi.com/2011/09/08/kiyasla/"
+                target="_blank"
+              >
+                {"  "}
+                website {"  "}
+              </a>
+              in Turkey.
+            </p>
+
+            <p>
+              In three years, Kiyasla got so popular that it was serving almost
+              40,000 people daily. In 2015, 14 million people in Turkey used
+              Kiyasla (which is equal the 20% of the population of Turkey) and
+              eventually those numbers led us to sell Kiyasla in the same year.
+            </p>
+          </div>
+
+          <div className="context">
+            <h1>LESSONS</h1>
+            <p>
+              Every good design has logical reasoning and unique development
+              behind it. Empathizing with users and understanding potential
+              challenges plays a crucial role in designing successful products.
+              With Kiyasla, we achieved our goal of making users feel like
+              informed and discerning consumers by the ease of using the site to
+              compare products. Once you help users accomplish their intended
+              tasks easily and directly, they become loyal to your product and
+              brand.
             </p>
           </div>
         </div>
       </div>
-      <Promo />
 
       <div className="next__article">
-        <Link to="/portfolio/kiyasla">
+        <Link to="/portfolio/saglik-ve-yasam">
           <div className="container container--normal">
-            <h1>KIYASLA</h1>
-            <p>Introducing smarter comparisons.</p>
+            <h4>UP NEXT</h4>
+            <h1>SAGLIK VE YASAM</h1>
+            <p>
+              Redesigned and applied new strategies to Saglik ve Yasam to
+              attract more organic users from Google searches.
+            </p>
           </div>
         </Link>
+
+        <img
+          src="/images/blank.png"
+          alt="Kiyas.la home page"
+          style={{
+            background: "url(/images/svy-1@2x.jpg) no-repeat top left",
+            backgroundSize: "cover"
+          }}
+        />
       </div>
+
+      <Promo />
     </div>
   );
 };
 
-export default SvY;
+export default Kiyasla;

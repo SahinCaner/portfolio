@@ -15,7 +15,7 @@ export class ImageZoom extends Component {
 
   render() {
     return (
-      <figure>
+      <figure className={this.props.noBorder && "no-border"}>
         <img
           src={this.props.src}
           alt={this.props.alt}
