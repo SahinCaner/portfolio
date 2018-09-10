@@ -100,6 +100,12 @@
   margin-top: 1.6rem;
 }
 
+.context h3 + .image > .video__wrapper,
+.context h3 + .image__wrapper,
+.context h3 + .image > figure {
+  margin-top: 3.2rem;
+}
+
 .image__wrapper {
   display: flex;
   flex-direction: column;
@@ -234,6 +240,11 @@ span.order {
     width: 110%;
     margin: 6.4rem -5%;
   }
+  .video__wrapper--full {
+    width: 110%;
+    max-width: 110%;
+    margin: 6.4rem -5%;
+  }
   .image__wrapper .image {
     flex: 0 0 calc(50% - 1.6rem);
   }
@@ -259,6 +270,11 @@ span.order {
   }
   .image__wrapper {
     width: 120%;
+    margin: 6.4rem -10%;
+  }
+  .video__wrapper--full {
+    width: 120%;
+    max-width: 120%;
     margin: 6.4rem -10%;
   }
   .image__wrapper--gallery {

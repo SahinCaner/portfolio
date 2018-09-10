@@ -23,7 +23,7 @@ const Footer = props => {
         </div>
       </div>
       <div className="footer__item footer__item--signout">
-        Design and content © 2018, Caner Sahin.
+        Design, Development and Content © 2018, Caner Sahin.
         <p className="signout" onClick={props.startLogout}>
           <strong>SIGN OUT</strong>
         </p>

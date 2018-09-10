@@ -22,8 +22,8 @@ const AboutPage = () => {
             social networks to building web portals. Some of them include{" "}
             <Link to="/portfolio/genintra">Genintra</Link>,{" "}
             <Link to="/portfolio/kiyasla">Kiyasla</Link>,
-            <Link to="/portfolio/saglik-ve-yasam"> Saglik ve Yasam</Link>, and
-            Material UI.
+            <Link to="/portfolio/saglik-ve-yasam"> Saglik ve Yasam</Link>,
+            <Link to="/portfolio/codeit"> Code.it </Link> and Material UI.
           </p>
 
           <p>

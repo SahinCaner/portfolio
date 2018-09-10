@@ -1,6 +1,15 @@
+.portfolio {
+  margin: 2.4rem 0;
+}
+
+.portfolio h1 {
+  padding: 4.8rem 0 2.4rem;
+  color: $primary-dark-color;
+}
+
 ul.portfolio__list {
   width: 100%;
-  margin: 3.2rem 0;
+  margin: 0;
 }
 ul.portfolio__list > li {
   position: relative;
@@ -60,7 +69,6 @@ ul.portfolio__list > li a:hover .btn--link {
   border-bottom-color: $primary-color;
   color: $primary-color;
 }
-
 
 .portfolio__tag {
   position: absolute;

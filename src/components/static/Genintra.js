@@ -25,9 +25,9 @@ const Genintra = () => {
           <div className="container container--column">
             <h2>WARNING</h2>
             <p>
-              I'm still working on this case study and I will publish it as soon
-              as I am done writing it. In the mean time, you can take a look at
-              the screen shots and videos.
+              I'm still working on this case study and the full case-study will
+              be published on <strong>November 1st.</strong> In the meantime,
+              you can take a look at the screenshots and screen recordings.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Genintra = () => {
               noBorder
             />
 
-            <h2>FILTERING COMPONENT</h2>
+            <h3>FILTERING COMPONENT</h3>
             <div className="image__wrapper">
               <div className="image">
                 <div className="video__wrapper">
@@ -86,7 +86,7 @@ const Genintra = () => {
 
         <div className="container container--column">
           <div className="context">
-            <h2>SEARCH COMPONENT</h2>
+            <h3>SEARCH COMPONENT</h3>
             <div className="image__wrapper">
               <div className="image">
                 <div className="video__wrapper">
@@ -121,22 +121,19 @@ const Genintra = () => {
       </div>
 
       <div className="next__article">
-        <Link to="/portfolio/kiyasla">
+        <Link to="/portfolio/codeit">
           <div className="container container--normal">
             <h4>UP NEXT</h4>
-            <h1>KIYASLA</h1>
-            <p>
-              Created a website that introduced smarter comparisons between
-              electronic products.
-            </p>
+            <h1>CODE.IT</h1>
+            <p>Online platform for learning to code.</p>
           </div>
         </Link>
 
         <img
           src="/images/blank.png"
-          alt="Kiyas.la home page"
+          alt="Code.it home page"
           style={{
-            background: "url(/images/kiyasla.jpg) no-repeat top left",
+            background: "url(/images/codeit.jpg) no-repeat top left",
             backgroundSize: "cover"
           }}
         />

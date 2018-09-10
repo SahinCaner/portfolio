@@ -10,6 +10,7 @@ import PortfolioHomePage from "../components/portfolio/PortfolioHomePage";
 import SvY from "../components/static/SvY";
 import Kiyasla from "../components/static/Kiyasla";
 import Genintra from "../components/static/Genintra";
+import Codeit from "../components/static/Codeit";
 
 import ScrollToTop from "../components/common/ScrollToTop";
 import ContactPage from "../components/contact/ContactPage";
@@ -26,6 +27,7 @@ const AppRouter = () => (
         <PrivateRoute path="/portfolio/saglik-ve-yasam" component={SvY} />
         <PrivateRoute path="/portfolio/kiyasla" component={Kiyasla} />
         <PrivateRoute path="/portfolio/genintra" component={Genintra} />
+        <PrivateRoute path="/portfolio/codeit" component={Codeit} />
         <PrivateRoute path="/portfolio" component={PortfolioHomePage} />
         <PrivateRoute path="/contact" component={ContactPage} />
         <PrivateRoute path="/about" component={AboutPage} />
