@@ -125,7 +125,7 @@ const Genintra = () => {
           <div className="container container--normal">
             <h4>UP NEXT</h4>
             <h1>CODE.IT</h1>
-            <p>Online platform for learning to code.</p>
+            <p>Online learning platform for coding.</p>
           </div>
         </Link>
 
