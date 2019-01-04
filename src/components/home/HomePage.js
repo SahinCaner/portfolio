@@ -118,9 +118,16 @@ export class HomePage extends React.Component {
                   })}
                 </p>
                 <p>
+                  Currently working at{" "}
+                  <a href="https://www.zwift.com" target="_blank">
+                    Zwift
+                  </a>{" "}
+                  as a UX Designer.
+                </p>
+                {/* <p>
                   I am currently looking for a UX/UI designer position in Los
                   Angeles, CA.
-                </p>
+                </p> */}
                 <p>
                   <Link className="btn btn--primary" to="/">
                     PORTFOLIO LOGIN

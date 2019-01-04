@@ -26,7 +26,7 @@ const Genintra = () => {
             <h2>WARNING</h2>
             <p>
               I'm still working on this case study and the full case-study will
-              be published on <strong>December 1st.</strong> In the meantime,
+              be published on <strong>March 1st, 2019.</strong> In the meantime,
               you can take a look at the screenshots and screen recordings.
             </p>
           </div>
